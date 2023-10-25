@@ -1,3 +1,9 @@
+import Form from "../Components/form"
 export default function DistributionStatus() {
-    return <h1> ArrivalInformation</h1>
+    return (
+        <>
+         
+           
+        </>
+        )
 }

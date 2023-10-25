@@ -1,8 +1,10 @@
 import Form from "../Components/form"
-export default function StatusList() {
+export default function LogRegistration() {
     return (
         <>
+          <Form/>
           
-          </>
+        </>
+      
         )
 }

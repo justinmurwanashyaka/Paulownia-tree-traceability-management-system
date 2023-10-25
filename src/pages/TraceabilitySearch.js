@@ -1,3 +1,9 @@
+import Form from "../Components/form"
 export default function TraceabilitySearch() {
-    return <h1>Traceability Search</h1>
+    return (
+        <>
+         
+           
+        </>
+        )
 }

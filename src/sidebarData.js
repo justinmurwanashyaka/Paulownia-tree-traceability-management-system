@@ -1,4 +1,5 @@
 import {FaHome, FaUserPlus,FaCartPlus,FaClipboardList, FaShippingFast,FaHistory} from "react-icons/fa";
+import {AiFillPlusCircle} from "react-icons/ai"
 const sidebarData = [
     {
         title: 'Status List',
@@ -19,6 +20,11 @@ const sidebarData = [
         path: '/DistributionStatus',
         icon:<FaShippingFast/>
     
+    },
+    {
+        title: 'Log Registration',
+        path: '/LogRegistration',
+        icon:<AiFillPlusCircle/>
     },
    
   
