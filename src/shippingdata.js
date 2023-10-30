@@ -1,0 +1,114 @@
+import  {CiMenuKebab} from 'react-icons/ci'
+export const shippingdata = [
+{
+    id:'1',
+    shippingDestination:'KobeTimber',
+    shippingAddress:'Sanomiya-chome-3',
+    shippingDate:'2023-05-02',
+    shipment:'shipment001',
+    methodofTransport:'ship',
+    expectedArrivalDate:'2023-05-04',
+    action:<CiMenuKebab/>
+},
+{
+    id:'1',
+    shippingDestination:'KobeTimber',
+    shippingAddress:'Sanomiya-chome-3',
+    shippingDate:'2023-05-02',
+    shipment:'shipment001',
+    methodofTransport:'ship',
+    expectedArrivalDate:'2023-05-04',
+    action:<CiMenuKebab/>
+},
+{
+    id:'1',
+    shippingDestination:'KobeTimber',
+    shippingAddress:'Sanomiya-chome-3',
+    shippingDate:'2023-05-02',
+    shipment:'shipment001',
+    methodofTransport:'ship',
+    expectedArrivalDate:'2023-05-04',
+    action:<CiMenuKebab/>
+},
+{
+    id:'1',
+    shippingDestination:'KobeTimber',
+    shippingAddress:'Sanomiya-chome-3',
+    shippingDate:'2023-05-02',
+    shipment:'shipment001',
+    methodofTransport:'ship',
+    expectedArrivalDate:'2023-05-04',
+    action:<CiMenuKebab/>
+},
+{
+    id:'1',
+    shippingDestination:'KobeTimber',
+    shippingAddress:'Sanomiya-chome-3',
+    shippingDate:'2023-05-02',
+    shipment:'shipment001',
+    methodofTransport:'ship',
+    expectedArrivalDate:'2023-05-04',
+    action:<CiMenuKebab/>
+},
+{
+    id:'1',
+    shippingDestination:'KobeTimber',
+    shippingAddress:'Sanomiya-chome-3',
+    shippingDate:'2023-05-02',
+    shipment:'shipment001',
+    methodofTransport:'ship',
+    expectedArrivalDate:'2023-05-04',
+    action:<CiMenuKebab/>
+}, 
+{
+    id:'1',
+    shippingDestination:'KobeTimber',
+    shippingAddress:'Sanomiya-chome-3',
+    shippingDate:'2023-05-02',
+    shipment:'shipment001',
+    methodofTransport:'ship',
+    expectedArrivalDate:'2023-05-04',
+    action:<CiMenuKebab/>
+},
+{
+    id:'1',
+    shippingDestination:'KobeTimber',
+    shippingAddress:'Sanomiya-chome-3',
+    shippingDate:'2023-05-02',
+    shipment:'shipment001',
+    methodofTransport:'ship',
+    expectedArrivalDate:'2023-05-04',
+    action:<CiMenuKebab/>
+},
+{
+    id:'1',
+    shippingDestination:'KobeTimber',
+    shippingAddress:'Sanomiya-chome-3',
+    shippingDate:'2023-05-02',
+    shipment:'shipment001',
+    methodofTransport:'ship',
+    expectedArrivalDate:'2023-05-04',
+    action:<CiMenuKebab/>
+},
+{
+    id:'1',
+    shippingDestination:'KobeTimber',
+    shippingAddress:'Sanomiya-chome-3',
+    shippingDate:'2023-05-02',
+    shipment:'shipment001',
+    methodofTransport:'ship',
+    expectedArrivalDate:'2023-05-04',
+    action:<CiMenuKebab/>
+},
+{
+    id:'1',
+    shippingDestination:'KobeTimber',
+    shippingAddress:'Sanomiya-chome-3',
+    shippingDate:'2023-05-02',
+    shipment:'shipment001',
+    methodofTransport:'ship',
+    expectedArrivalDate:'2023-05-04',
+    action:<CiMenuKebab/>
+},
+
+];
