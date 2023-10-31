@@ -1,0 +1,33 @@
+const Language = {
+    en: {
+      statusList: 'Status List',
+      traceabilitySearch: 'Traceability Search',
+      distributionStatus: 'Distribution Status',
+      logRegistration: 'Log Registration',
+      logSearchList: 'Log Information Search',
+      shippingRegistration: 'Shipping Registration',
+      shippingList: 'Shipping List',
+      accountManagement: 'Account Management',
+      userCompanyMaster: 'User Company Master',
+      codeMaster: 'Code Master',
+      scheduledArrivals: 'Scheduled Arrivals',
+      registerArrivals: 'Register Arrivals',
+      arrivalsSearchList: 'Arrivals Search List',
+    },
+    ja: {
+      statusList: 'ステータスリスト',
+      traceabilitySearch: 'トレースビリティ検索',
+      distributionStatus: '配送ステータス',
+      logRegistration: 'ログ登録',
+      logSearchList: 'ログ情報検索',
+      shippingRegistration: '出荷登録',
+      shippingList: '出荷リスト',
+      accountManagement: 'アカウント管理',
+      userCompanyMaster: 'ユーザー企業マスター',
+      codeMaster: 'コードマスター',
+      scheduledArrivals: '予定到着',
+      registerArrivals: '到着情報登録',
+      arrivalsSearchList: '到着情報検索リスト',
+    },
+  };
+  

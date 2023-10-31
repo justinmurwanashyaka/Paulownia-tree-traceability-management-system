@@ -12,6 +12,10 @@ import ShippinginformationList from './pages/ShippingInformationList';
 import ArrivalRegistration from './pages/RegisterArrivalInformation';
 import ScheduledArrivalList from './pages/ScheduledArrivalList';
 import Login from './pages/Login';
+import ArrivalInformationSearchList from './pages/ArrivalInformationSearchList';
+import ProductRegistration from './pages/ProductRegistration';
+import ProductInformationSearchList from './pages/ProductInformationSearchList';
+import RegistrationPurchasedProductInformation from './pages/RegistrationPurchasedProductInformation';
 
 function App() {
   const [userRole, setUserRole] = useState(null);
@@ -30,7 +34,12 @@ function App() {
             <Route path='/ShippingInformation' element={<ShippingInformation />} />
             <Route path='/ShippingInformationList' element={<ShippinginformationList />} />
             <Route path='/RegisterArrivalInformation' element={<ArrivalRegistration/>}/>     
-            <Route path='/ScheduledArrivalList' element={<ScheduledArrivalList/>}/>      
+            <Route path='/ScheduledArrivalList' element={<ScheduledArrivalList/>}/>    
+            <Route path='/ArrivalInformationSearchList' element ={<ArrivalInformationSearchList/>}/>  
+            <Route path='/ProductRegistration' element={<ProductRegistration/>}/>
+            <Route path='/ProductInformationSearchList' element={<ProductInformationSearchList/>}/>
+            <Route path='/RegistrationPurchasedProductInformation' element={<RegistrationPurchasedProductInformation/>}/>
+            
           </>
         )}
         {userRole === 'provider' && (

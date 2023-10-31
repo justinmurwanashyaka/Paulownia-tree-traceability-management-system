@@ -117,6 +117,9 @@ select {
   color: rgba(0, 0, 0, 0.551);
 
 }
+label{
+  color: rgba(0, 0, 0, 0.551);
+}
 
 input:focus {
   border-color: #248771;
