@@ -1,17 +1,12 @@
 import React from 'react';
-import {arrivaldata} from '../arrivaldata.js'
-import ArrivalList from '../Components/arrivalList.js';
+import Scheledarrivallist from '../Components/scheduledarrivalList.js';
 
 
-const columns = ['#','SHIPPING SOURCE','DESTINATION ADDRESS','SHIPPING DATE','SHIPMENT','TRANSPORT METHOD','EXPECTED ARRIVAL DATE','MARKS','ACTION'];
-
-const ScheduledArrivalList = () => {
+const ScheduledArrivalList = ({user_compID}) => {
     return (
         <div className="container">
             <div className="table-container">
-                <h1>Sheduled Arrival List</h1>
-                <ArrivalList data={arrivaldata} columns={columns}/>
-               
+                <Scheledarrivallist user_compID={user_compID} />
             </div>
         </div>
     );

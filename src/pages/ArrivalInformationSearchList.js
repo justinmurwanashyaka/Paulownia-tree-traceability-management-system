@@ -1,16 +1,12 @@
 import React from 'react';
-import { arrivalsearchlistdata } from '../arrivalsearchlistdata.js';
+
 import ArrivalSearchList from '../Components/arrivalsearchlist.js';
 
-
-const columns = ['#', 'INCOMING CARGO ', 'RECEIVING COMPANY', 'ARRIVAL DAY', 'QUANTITY', 'IN STOCK STATUS', 'STORAGE LOCATION', 'MARKS', 'ACTION'];
-
-const ArrivalInformationSearchList = () => {
+const ArrivalInformationSearchList = ({ user_compID, user_role }) => {
     return (
         <div className="container">
             <div className="table-container">
-                <h1>Arrival Information List</h1>
-                <ArrivalSearchList data={arrivalsearchlistdata} columns={columns} />
+                <ArrivalSearchList user_compID={user_compID} user_role={user_role} />
             </div>
         </div>
     );

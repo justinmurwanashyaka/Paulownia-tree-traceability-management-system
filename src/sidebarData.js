@@ -1,81 +1,76 @@
-import { FaHome, FaUserPlus, FaCartPlus, FaSearch,FaUserSecret, FaClipboardList, FaShippingFast, FaHistory } from "react-icons/fa";
-import { AiFillPlusCircle, AiFillSchedule} from "react-icons/ai";
-import {  GiCargoCrate,GiCargoShip } from "react-icons/gi";
+import { FaHome, FaUserPlus, FaCartPlus, FaSearch, FaUserSecret, FaClipboardList, FaShippingFast, FaHistory } from "react-icons/fa";
+import { AiFillPlusCircle, AiFillSchedule } from "react-icons/ai";
+import { GiCargoCrate, GiCargoShip } from "react-icons/gi";
 import { TbUserCode } from "react-icons/tb"
-import {MdManageAccounts } from "react-icons/md";
-import {BsFillCartCheckFill,BsFillCartPlusFill} from "react-icons/bs";
+import { MdManageAccounts } from "react-icons/md";
+import { BsFillCartCheckFill, BsFillCartPlusFill } from "react-icons/bs";
 
 
 
 const sidebarData = [
   {
     title: 'Status List',
-    path: '/StatusList',
+    path: '/StatusListInformation',
     icon: <FaClipboardList />,
-    forGrower: false, 
-    forProvider: true, 
+    forGrower: true,
+    forDistributor: true,
+    forProducer: true,
+    forPurchasers: true,
   },
   {
     title: 'Traceability Search',
     path: '/TraceabilitySearch',
     icon: <FaHistory />,
-    forGrower: false, 
-    forProvider: true, 
+    forGrower: true,
   },
   {
     title: 'Distribution Status',
     path: '/DistributionStatus',
     icon: <FaShippingFast />,
-    forGrower: false, 
-    forProvider: true, 
-    },
+    forGrower: true,
+  },
   {
     title: 'Log Registration',
     path: '/LogRegistration',
     icon: <AiFillPlusCircle />,
-    forGrower: true, 
-    forProvider: false, 
+    forGrower: true
   },
   {
     title: 'Log Information Search',
     path: '/LogSearchList',
     icon: <FaSearch />,
-    forGrower: true,
-    forProvider: false,
+    forGrower: true
   },
   {
     title: 'Shipping Registration',
-    path: '/ShippingInformation',
+    path: '/ShippingInformationRegistration',
     icon: <GiCargoShip />,
     forGrower: true,
-    forProvider: false,
+    forDistributor: true
   },
   {
     title: 'Shipping List',
     path: '/ShippingInformationList',
     icon: <GiCargoShip />,
     forGrower: true,
-    forProvider: false,
+    forDistributor: true
   },
   {
     title: 'Account management',
     path: '/AccountManagement',
     icon: <MdManageAccounts />,
-    forGrower: false,
-    forProvider: true,
+    forProvider: true
   },
   {
     title: 'User Company master',
     path: '/UserCompanyMaster',
     icon: <FaUserSecret />,
-    forGrower: false,
     forProvider: true,
   },
   {
     title: 'Code master',
     path: '/CodeMaster',
     icon: <TbUserCode />,
-    forGrower: false,
     forProvider: true,
   },
   {
@@ -83,43 +78,43 @@ const sidebarData = [
     path: '/ScheduledArrivalList',
     icon: <AiFillSchedule />,
     forGrower: true,
-    forProvider: false,
+    forDistributor: true
   },
   {
     title: 'Register Arrivals',
     path: '/RegisterArrivalInformation',
     icon: <GiCargoCrate />,
     forGrower: true,
-    forProvider: false,
+    forDistributor: true
   },
   {
     title: 'Arrivals Search List',
     path: '/ArrivalInformationSearchList',
     icon: <FaSearch />,
     forGrower: true,
-    forProvider: false,
+    forDistributor: true
   },
   {
     title: 'Register Product',
     path: '/ProductRegistration',
     icon: <BsFillCartPlusFill />,
-    forGrower: true,
-    forProvider: false,
+    forProducer: true,
+
   },
   {
     title: 'Product Search List',
     path: '/ProductInformationSearchList',
     icon: <FaSearch />,
-    forGrower: true,
-    forProvider: false,
+    forProducer: true,
   },
   {
     title: 'Purchased Product',
     path: '/RegistrationPurchasedProductInformation',
     icon: <BsFillCartCheckFill />,
-    forGrower: true,
-    forProvider: false,
+    forPurchasers: true,
   },
-  ];
+
+
+];
 
 export default sidebarData;

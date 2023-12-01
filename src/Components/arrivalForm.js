@@ -15,14 +15,32 @@ export default function ArrivalForm() {
         remarks: ''
 
     });
+    const [message, setMessage] = useState();
     const handleInputChange = (e) => {
         const { name, value } = e.target;
         setFormData({ ...formData, [name]: value });
     };
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         //Handle form submission. eg. send data to a server
-        console.log(formData)
+      
+      const allInputData = {incomingcargo:FormData.incomingcargo, arrivalday:formData.arrivalday, receivingcompany:formData.receivingcompany, storagelocation:formData.storagelocation, personalincharge: formData.personalincharge, coment: formData.coment, quantity:formData.quantity, remarks:formData.remarks };
+     
+      let res = await fetch("http://localhost:8081/arrivalRegistration", {
+         method: "POST",
+         headers: { 'content-type': 'application/json' },
+         body: JSON.stringify(allInputData)
+      });
+
+      let resjson = await res.json();
+      if (res.status === 200) {
+         setMessage(resjson.success);
+         setTimeout(() => {
+            // navigate('/datatable');
+         }, 200);
+      } else {
+         setMessage("some error!!")
+      }
     };
 
     return (
